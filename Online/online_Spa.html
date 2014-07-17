@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <script type="text/javascript">
+function showSpoiler(obj)
+    {
+    var inner = obj.parentNode.getElementsByTagName("div")[0];
+    if (inner.style.display == "none")
+        inner.style.display = "";
+    else
+        inner.style.display = "none";
+    }
+    </script>
+    <meta charset="UTF-8">
+
+    <title>Space Pirate Captain Harlock Online Schauen</title>
+    <link href="online.css" rel="stylesheet" type="text/css"/>
+    <link href="../Buttons/buttons.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<table border="1">
+    <tr>
+        <th>
+            <a href="../index.html">
+                <img src="../Ressourcen/logog.gif">
+            </a>
+        </th>
+        <th>
+            <table border="1" id="table">
+                <tr>
+                    <th>
+                        <a href="../Info/Info.html">Link</a>
+                    </th>
+                    <th>
+                        <a href="online.html">Link</a>
+                    </th>
+                    <th>
+                        <a href="../index.html">Link</a>
+                    </th>
+                    <th>
+                        <a href="../Info/Info.html">Link</a>
+                    </th>
+                    <th>
+                        <a href="online.html">Link</a>
+                    </th>
+                </tr>
+            </table>
+        </th>
+        <th>
+            <a href="../index.html">
+                <img src="../Ressourcen/logog.gif">
+            </a>
+        </th>
+    </tr>
+    <tr>
+        <td>
+
+        <td>
+            <div id="menu">
+                <h1>SPACE PIRATE CAPTAIN HARLOCK TRAILER</h1>
+                <div id="video">
+                    <video width="900" height="676" controls>
+                        <source src="../Ressourcen/Video/Spa.mp4" type="video/mp4">
+                        <object data="video.mp4" width="900" height="676">
+                        </object>
+                    </video>
+                </div>
+                <table>
+                    <tr>
+                        <div class="spoiler">
+                            <input class="Online" type="button" onclick="showSpoiler(this);" value="Episoden" />
+                            <div class="inner" style="display:none;">
+                                <button class="Info">Folge 01</button>
+                                </div>
+                    </tr>
+                </table>
+
+            </div>
+        </td>
+        <td>
+
+        </td>
+        </td>
+    </tr>
+</table>
+</body>
+
+</html>

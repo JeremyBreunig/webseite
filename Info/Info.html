@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <script type="text/javascript">
+function showSpoiler(obj)
+    {
+    var inner = obj.parentNode.getElementsByTagName("div")[0];
+    if (inner.style.display == "none")
+        inner.style.display = "";
+    else
+        inner.style.display = "none";
+    }
+    </script>
+    <meta charset="UTF-8">
+
+    <title>Online Schauen</title>
+    <link href="Info.css" rel="stylesheet" type="text/css"/>
+    <link href="../Buttons/buttons.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<table border="1">
+    <tr>
+        <th>
+            <a href="../index.html">
+                <img src="../Ressourcen/logog.gif">
+            </a>
+        </th>
+        <th>
+            <table border="1" id="table">
+                <tr>
+                    <th>
+                        <a href="Info.html">Link</a>
+                    </th>
+                    <th>
+                        <a href="../Online/online.html">Link</a>
+                    </th>
+                    <th>
+                        <a href="../index.html">Link</a>
+                    </th>
+                    <th>
+                        <a href="Info.html">Link</a>
+                    </th>
+                    <th>
+                        <a href="../Online/online.html">Link</a>
+                    </th>
+                </tr>
+            </table>
+        </th>
+        <th>
+            <a href="../index.html">
+                <img src="../Ressourcen/logog.gif">
+            </a>
+        </th>
+    </tr>
+    <tr>
+        <td>
+
+        <td>
+            <div id="menu">
+                <h1>
+                    INFORMATION ZU [SERIE]
+                </h1>
+                <hr>
+                <br>
+                <div>
+                    <table>
+                    <tr>
+                        <td>
+                    <img src="../Ressourcen/Bild.png">
+                        </td>
+                        <td>
+                            <h1>
+                                Serienname
+                            </h1>
+                        </td>
+                    </tr>
+                        <tr>
+                   <td>
+
+                   </td>
+                            <td id="wichtig">
+                                <h2>
+                                    Titel: [Serienname]
+                                <br>
+                                    Erscheinungsjahr: [Jahreszahl]
+                                <br>
+                                    Folgen: [Anzahl]
+                                <br>
+                                     <div class="spoiler">
+                                         Story:
+                                    <input class="Info" type="button" onclick="showSpoiler(this);" value="Spoiler" />
+                                    <div class="inner" style="display:none;">
+                                        [Spoiler &uumlber die Serie]
+                                        <br>
+                                        [Spoiler &uumlber die Serie]
+                                        <br>
+                                        [Spoiler &uumlber die Serie]
+                                        <br>
+                                        [Spoiler &uumlber die Serie]
+                                        <br>
+                                        [Spoiler &uumlber die Serie]
+                                    </div>
+                                         <br>
+                                         <div class="spoiler">
+                                             Charaktere:
+                                             <input class="Download" type="button" onclick="showSpoiler(this);" value="Spoiler" />
+                                             <div class="inner" style="display:none;">
+                                                 [Spoiler &uumlber die Charaktere]
+                                                 <br>
+                                                 [Spoiler &uumlber die Charaktere]
+                                                 <br>
+                                                 [Spoiler &uumlber die Charaktere]
+                                                 <br>
+                                                 [Spoiler &uumlber die Charaktere]
+                                                 <br>
+                                                 [Spoiler &uumlber die Charaktere]
+                                             </div>
+                                </h2>
+                   </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </td>
+        <td>
+
+        </td>
+        </td>
+    </tr>
+</table>
+</body>
+
+</html>
+</html>

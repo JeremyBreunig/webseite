@@ -1,0 +1,37 @@
+body {
+background-color: black;
+color: white
+}
+#table {
+width: 1500px
+}
+
+#menu {
+widht: 600px;
+text-align: center
+}
+
+table {
+widht: 144px
+}
+
+img {
+max-widht: 200px;
+max-height: 200px
+}
+
+.Titel {
+color: yellow
+}
+
+td {
+width: 500px
+}
+
+#wichtig {
+height: 490px
+}
+
+h1 {
+color: yellow
+}
